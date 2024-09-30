@@ -29,3 +29,7 @@ func enable():
 
 func disable():
 	self.enabled = false
+
+func get_blackboard():
+	return blackboard
+
